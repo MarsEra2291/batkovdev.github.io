@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Batix</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand logos" href="#"><img src="https://img.icons8.com/material/24/1abc9c/decentralized-network.png"/> Batix</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toogle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link active">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Магазин</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Часто задаваемые Вопросы</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">АП</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="accordion" id="accordionExample">  <!-- 1 -->
+	  <div class="accordion-item"> <!-- 2 -->
+	    <h2 class="accordion-header" id="headingOne">
+	      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	        Batix Pay
+	      </button>
+	    </h2>
+	    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample"> <!-- 3 -->
+	      <div class="accordion-body"> <!-- 4 -->
+	      	<h1 class="h1 text-center text-success">Batix <span style="color: gray;">Pay</span></h1>
+	      	<p class="text-center h5">Тут ты найдешь такие услуги, как разработка Логотипа, Аватара, Сайта и прочее!</p>
+	      </div>
+	    </div><!-- 4 -->
+	  </div> <!-- 2 -->
+	</div><!-- 1 -->
+
+	<div class="container-fluid">
+		<p>
+		  <span class="text-success">Услуги</span>
+		  <a class="text-success" data-bs-toggle="collapse" href="#collapseALL" role="button" aria-expanded="false" aria-controls="collapseALL">
+		    Все
+		  </a>
+		</p>		
+		<div class="collapse" id="collapseALL">
+		  <div class="card card-body">
+		    <div class="container-fluid card-group">
+			<div class="card border-light mb-3" style="max-width: 18rem;">
+			  <div class="card-header">Рубрики <span class="btn btn-outline-success">IT</span></div>
+			  <div class="card-body">
+			    <h5 class="card-title">Разработка сайта</h5>
+			    <p class="card-text">Верстка вашего сайта на HTML и CSS с помощью фреймворков...</p>
+			    <a href="#" class="btn btn-primary">Перейти к товару</a>
+			  </div>
+			</div>
+			<div class="card border-light mb-3" style="max-width: 18rem;">
+			  <div class="card-header">Рубрики <span class="btn btn-outline-success">IT</span> | <span class="btn btn-outline-success">Design</span></div>
+			  <div class="card-body">
+			    <h5 class="card-title">Сайт на Wix.COM</h5>
+			    <p class="card-text">Создание сайта на очень известной платформе/конструкторе сайтов Wix.COM...</p>
+			    <a href="#" class="btn btn-primary">Перейти к товару</a>
+			  </div>
+			</div>
+			<div class="card border-light mb-3" style="max-width: 18rem;">
+			  <div class="card-header">Рубрики <span class="btn btn-outline-success">Design</span></div>
+			  <div class="card-body">
+			    <h5 class="card-title">Разработка оформления</h5>
+			    <p class="card-text">Разработка собственного логотипа, аватара, баннера...</p>
+			    <a href="#" class="btn btn-primary">Перейти к товару</a>
+			  </div>
+			</div>
+			<div class="card border-light mb-3" style="max-width: 18rem;">
+			  <div class="card-header">Рубрики <span class="btn btn-outline-success">IT</span></div>
+			  <div class="card-body">
+			    <h5 class="card-title">Разработка сайта</h5>
+			    <p class="card-text">Верстка вашего сайта на HTML и CSS с помощью фреймворков...</p>
+			    <a href="#" class="btn btn-primary">Перейти к товару</a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+</body>
+</html>
